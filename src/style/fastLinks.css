@@ -1,0 +1,13 @@
+.fast-links-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    background-color: #E9F0FF;
+    margin: 0;
+}
+
+.fast-links-container .header {
+    font-size: 1.5em;
+    color: #0B64B9;
+    font-family: 'poppins-medium';
+}
