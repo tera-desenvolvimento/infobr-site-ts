@@ -1,7 +1,10 @@
 .main-banner {
     width: -webkit-fill-available;
+    height: fit-content;
 }
 
 .banner-image {
+    position: relative;
     width: 100%;
+    z-index: 2;
 }

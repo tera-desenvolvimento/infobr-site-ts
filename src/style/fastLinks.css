@@ -1,13 +1,73 @@
 .fast-links-container {
+    width: -webkit-fill-available;
     display: flex;
     flex-direction: column;
+    align-items: center;
     gap: 10px;
     background-color: #E9F0FF;
     margin: 0;
+    padding-top: 20px;
 }
 
 .fast-links-container .header {
     font-size: 1.5em;
     color: #0B64B9;
-    font-family: 'poppins-medium';
+    font-family: "Poppins", sans-serif;
+    font-weight: 500;
+    font-style: normal;
+}
+
+.links-wrapper {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 60vw;
+    z-index: 3;
+}
+
+.links-wrapper .item-card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    align-items: center;
+}
+
+.links-wrapper .item-card img {
+    height: 40px;
+}
+
+.links-wrapper .item-card .link-text {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #0B64B9;
+}
+
+.links-wrapper .item-card .fast-link {
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    color: #FFFFFF;
+    background-color: #022162;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.logo-bg-top, .logo-bg-bottom {
+    height: 200px;
+}
+
+.logo-bg-bottom {
+    position: absolute;
+    left: -30px;
+    margin-top: 50px;
+}
+
+.logo-bg-top {
+    position: absolute;
+    right: -40px;
+    margin-top: -100px;
 }
