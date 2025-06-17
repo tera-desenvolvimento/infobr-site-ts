@@ -1,0 +1,19 @@
+.customers-container {
+    display: flex;
+    flex-direction: column;
+    padding: 30px;
+    gap: 20px;
+}
+
+.customers-container b {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    align-self: center;
+    color: #0B64B9;
+    font-size: 2rem;
+}
+
+.customers-container .customers-slider .slick-track {
+    display: flex;
+    gap: 60px;
+}

@@ -4,3 +4,23 @@ body {
   box-sizing: border-box;
   overflow-x: hidden;
 }
+
+@font-face {
+    font-family: "SF UI Display Ultralight";
+    src: url("../fonts/sf-ui-display/sf-ui-display-ultralight.otf");
+}
+
+@font-face {
+    font-family: "SF UI Display Light";
+    src: url("../fonts/sf-ui-display/sf-ui-display-light.otf");
+}
+
+@font-face {
+    font-family: "SF UI Display Bold";
+    src: url("../fonts/sf-ui-display/sf-ui-display-bold.otf");
+}
+
+@font-face {
+    font-family: "SF UI Display SemiBold";
+    src: url("../fonts/sf-ui-display/sf-ui-display-semibold.otf");
+}

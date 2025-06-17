@@ -1,0 +1,63 @@
+.ctw-container {
+    background-color: #0B64B9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 700px;
+    gap: 70px;
+    padding-bottom: 30px;
+}
+
+.ctw-container .ctw-cellphone-image {
+    height: 700px;
+    position: relative;
+    margin-top: -100px;
+}
+
+.ctw-container .ctw-wrapper {
+    display: flex;
+    flex-direction: column;
+    max-width: 50vw;
+}
+
+.ctw-container .ctw-wrapper b {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+    font-size: 4rem;
+    text-align: center;
+}
+
+.ctw-container .ctw-wrapper div {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+}
+
+.ctw-container .ctw-wrapper div .wpp-icon {
+    height: 230px;
+    position: relative;
+    margin-top: -60px;
+}
+
+.ctw-container .ctw-wrapper div .wpp-link {
+    background-color: #FCCF0D;
+    padding: 30px 60px;
+    border-radius: 15px;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.ctw-container .left-bg-logo {
+    position: absolute;
+    left: -30px;
+    margin-top: -260px;
+}
+
+.ctw-container .right-bg-logo {
+    position: absolute;
+    right: -30px;
+    margin-bottom: -260px;
+}

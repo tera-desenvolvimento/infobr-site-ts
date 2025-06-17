@@ -6,11 +6,11 @@
     gap: 10px;
     background-color: #E9F0FF;
     margin: 0;
-    padding-top: 20px;
+    padding: 50px;
 }
 
 .fast-links-container .header {
-    font-size: 1.5em;
+    font-size: 1.8em;
     color: #0B64B9;
     font-family: "Poppins", sans-serif;
     font-weight: 500;
@@ -58,6 +58,8 @@
 
 .logo-bg-top, .logo-bg-bottom {
     height: 200px;
+    position: relative;
+    z-index: 20;
 }
 
 .logo-bg-bottom {

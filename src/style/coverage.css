@@ -1,0 +1,42 @@
+.coverage-container {
+    display: flex;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+    gap: 6rem;
+}
+
+.coverage-container .coverage-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coverage-container .coverage-wrapper b {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 4rem;
+    color: #0B64B9;
+}
+
+.coverage-container .coverage-wrapper .cities-wrapper {
+    display: flex;
+    gap: 6rem;
+}
+
+.coverage-container .coverage-wrapper .cities-wrapper .column {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.coverage-container .coverage-wrapper .cities-wrapper .column span {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    color: #0B64B9;
+}
+
+.coverage-container .map-icon {
+    max-height: 460px;
+}

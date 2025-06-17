@@ -1,0 +1,60 @@
+.testimonial-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-top: 50px;
+    padding: 20px;
+    text-align: center;
+    width: 98vw;
+    background-color: rgb(250, 200, 16);
+}
+
+.testimonial-container .logo-img {
+    height: 60px;
+    padding-bottom: 20px;
+}
+
+.testimonial-container b {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: #022162;
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.testimonial-element {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    gap: 20px;
+    border-radius: 25px;
+    background-color: #FFFFD6;
+    max-width: 250px;
+    height: 300px;
+}
+
+.testimonial-element div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.testimonial-element .customer-img {
+    height: 50px;
+}
+
+.testimonial-element .stars-img {
+    width: 80px;
+    height: auto;
+}
+
+.testimonial-element .testimonial-text {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: space-between; 
+    font-family: "SF UI Display Bold";
+    font-size: 20px;
+    height: -webkit-fill-available;
+}
