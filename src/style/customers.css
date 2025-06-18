@@ -18,6 +18,11 @@
     gap: 60px;
 }
 
+.customers-container .customers-slider img {
+    height: 100px;
+    width: unset !important;
+}
+
 @media(max-width: 768px) {
     .customers-container {
         background-color: #E9F0FF;

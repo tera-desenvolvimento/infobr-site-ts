@@ -10,22 +10,23 @@ function Coverage() {
 
                 <div className="cities-wrapper">
                     <div className="column">
-                        <span>Cidade 01</span>
-                        <span>Cidade 02</span>
-                        <span>Cidade 03</span>
-                        <span>Cidade 04</span>
+                        <span>Aracaju - SE</span>
+                        <span>Propriá - SE</span>
+                        <span>Cedro de São João - SE</span>
+                        <span>São Brás - AL</span>
+                        <span>Capela - SE</span>
                     </div>
                     <div className="column">
-                        <span>Cidade 05</span>
-                        <span>Cidade 06</span>
-                        <span>Cidade 07</span>
-                        <span>Cidade 08</span>
+                        <span>Porto Real do Colégio - AL</span>
+                        <span>Telha - SE</span>
+                        <span>Amparo do São Franciso - SE</span>
+                        <span>Canhoba - SE</span>
                     </div>
                     <div className="column">
-                        <span>Cidade 09</span>
-                        <span>Cidade 10</span>
-                        <span>Cidade 11</span>
-                        <span>Cidade 12</span>
+                        <span>São Francisco - SE</span>
+                        <span>Malhada dos Bois - SE</span>
+                        <span>Muribeca - SE</span>
+                        <span>Aquidabã - SE</span>
                     </div>
                 </div>
             </div>
