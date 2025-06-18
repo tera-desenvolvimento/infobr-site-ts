@@ -42,3 +42,17 @@
     color: #022162;
     border-radius: 10px;
 }
+
+@media(max-width: 768px) {
+    .plans-container {
+        background-color: #E9F0FF;
+    }
+
+    .plans-container .plans-wrapper {
+        flex-direction: column;
+    }
+
+    .plans-container .plans-wrapper .plan-item .plan-image {
+        width: 300px;
+    }
+}

@@ -5,7 +5,7 @@ import logoBlueImg from "../img/logo-blue.svg";
 
 function Testimonial() {
     const sliderSettings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -20,7 +20,7 @@ function Testimonial() {
             slidesToShow: 5,
             slidesToScroll: 5,
             infinite: true,
-            dots: true
+            dots: false
             }
         },
         {
@@ -29,7 +29,7 @@ function Testimonial() {
             slidesToShow: 4,
             slidesToScroll: 4,
             infinite: true,
-            dots: true
+            dots: false
             }
         },
         {
@@ -38,7 +38,7 @@ function Testimonial() {
             slidesToShow: 3,
             slidesToScroll: 3,
             infinite: true,
-            dots: true
+            dots: false
             }
         },
         {

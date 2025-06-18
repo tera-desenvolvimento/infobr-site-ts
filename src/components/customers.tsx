@@ -6,7 +6,7 @@ import "../style/customers.css"
 
 function Customers() {
     const sliderSettings = {
-        dots: true,
+        dots: false,
         infinite: true,
         slidesToShow: 3,
         slidesToScroll: 1,
@@ -21,7 +21,7 @@ function Customers() {
             slidesToShow: 5,
             slidesToScroll: 5,
             infinite: true,
-            dots: true
+            dots: false
             }
         },
         {
@@ -30,7 +30,7 @@ function Customers() {
             slidesToShow: 4,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+            dots: false
             }
         },
         {
@@ -39,7 +39,7 @@ function Customers() {
             slidesToShow: 3,
             slidesToScroll: 1,
             infinite: true,
-            dots: true
+            dots: false
             }
         },
         {

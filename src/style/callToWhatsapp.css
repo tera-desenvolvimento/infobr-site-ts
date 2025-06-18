@@ -61,3 +61,47 @@
     right: -30px;
     margin-bottom: -260px;
 }
+
+@media(max-width: 768px) {
+    .ctw-container {
+        gap: 10px;
+        min-height: 190px;
+        padding-bottom: unset;
+    }
+
+    .ctw-container .ctw-cellphone-image {
+        height: 200px;
+        margin-left: 20px;
+    }
+
+    .ctw-container .ctw-wrapper {
+        max-width: unset;
+    }
+
+    .ctw-container .ctw-wrapper b {
+        font-size: 1.2rem;
+    }
+
+    .ctw-container .ctw-wrapper div {
+        gap: unset;
+    }
+
+    .ctw-container .ctw-wrapper div .wpp-icon {
+        height: 40px;
+    }
+
+    .ctw-container .ctw-wrapper div .wpp-link {
+        padding: 10px 20px;
+        font-size: 12px;
+    }
+
+    .ctw-container .left-bg-logo {
+        height: 100px;
+        left: 0;
+        margin-top: 0;
+    }
+
+    .ctw-container .right-bg-logo {
+        display: none;
+    }
+}

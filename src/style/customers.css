@@ -17,3 +17,21 @@
     display: flex;
     gap: 60px;
 }
+
+@media(max-width: 768px) {
+    .customers-container {
+        background-color: #E9F0FF;
+    }
+
+    .customers-container b {
+        font-size: 1.6rem;
+    }
+
+    .customers-container .customers-slider .slick-track {
+        gap: 0;
+    }
+
+     .customers-container .customers-slider .slick-slide {
+        padding: 0 10px;
+     }
+}

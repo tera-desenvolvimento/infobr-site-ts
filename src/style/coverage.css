@@ -40,3 +40,28 @@
 .coverage-container .map-icon {
     max-height: 460px;
 }
+
+@media(max-width: 768px) {
+    .coverage-container {
+        gap: 20px;
+        padding: 10px;
+        background-color: #E9F0FF;
+        padding-bottom: 60px;
+    }
+
+    .coverage-container .coverage-wrapper b {
+        font-size: 1.6rem;
+    }
+
+    .coverage-container .coverage-wrapper .cities-wrapper {
+        gap: 10px;
+    }
+
+    .coverage-container .coverage-wrapper .cities-wrapper .column span {
+        font-size: 1rem;
+    }
+
+    .coverage-container .map-icon {
+        max-height: 100px;
+    }
+}
