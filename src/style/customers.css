@@ -1,5 +1,5 @@
 .customers-container {
-    display: flex;
+    display: none;
     flex-direction: column;
     padding: 30px;
     gap: 20px;
