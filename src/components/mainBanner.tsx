@@ -2,8 +2,9 @@ import Slider from "react-slick";
 
 import isMobileDevice from "../controllers/checkMobile.controller";
 
-import bannerMob1 from "../img/banner-mob-1.svg";
-import bannerMob2 from "../img/banner-mob-2.svg";
+import bannerDesk from "../img/banner-site-infobr.png";
+import bannerMob1 from "../img/banner-mob-1.png";
+import bannerMob2 from "../img/banner-mob-2.png";
 
 import '../style/mainBanner.css';
 
@@ -11,6 +12,7 @@ function MainBanner() {
   if (!isMobileDevice()){
     return (
       <div className="main-banner" >
+        <img src={bannerDesk} />
       </div>
     );
   } else {

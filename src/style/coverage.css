@@ -33,7 +33,7 @@
 .coverage-container .coverage-wrapper .cities-wrapper .column span {
     font-family: "Poppins", sans-serif;
     font-weight: 700;
-    font-size: 2rem;
+    font-size: 1.4rem;
     color: #0B64B9;
 }
 
@@ -59,7 +59,7 @@
     }
 
     .coverage-container .coverage-wrapper .cities-wrapper .column span {
-        font-size: 0.8rem;
+        font-size: 0.6rem;
     }
 
     .coverage-container .map-icon {

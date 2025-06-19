@@ -14,22 +14,22 @@ function FastLinks() {
                 <div className="item-card">
                     <img src={boletoImg} className="boleto-icon" alt="Boleto Icon"/>
                     <b className="link-text">2ª via do boleto</b>
-                    <a href="#" target="_blank" className="fast-link" rel="noopener noreferrer">Gerar via</a>
+                    <a href="https://infobr.boletofacil.tec.br/" target="_blank" className="fast-link" rel="noopener noreferrer">Gerar via</a>
                 </div>
                 <div className="item-card">
                     <img src={screenImg} className="screen-icon" alt="Screen Icon"/>
-                    <b className="link-text">Portal do assinante</b>
-                    <a href="#" target="_blank" className="fast-link" rel="noopener noreferrer">Acessar</a>
+                    <b className="link-text">Contrate agora mesmo</b>
+                    <a href="https://infobr.contratoonline.tec.br/" target="_blank" className="fast-link" rel="noopener noreferrer">Acessar</a>
                 </div>
                 <div className="item-card">
                     <img src={customerImg} className="customer-icon" alt="Customer Icon"/>
                     <b className="link-text">Área do cliente</b>
-                    <a href="#" target="_blank" className="fast-link" rel="noopener noreferrer">Acessar</a>
+                    <a href="https://infobrtelecom.tec.br/central_assinante_web/login" target="_blank" className="fast-link" rel="noopener noreferrer">Acessar</a>
                 </div>
                 <div className="item-card">
                     <img src={rocketIcon} className="rocket-icon" alt="Rocket Icon"/>
                     <b className="link-text">Teste de velocidade</b>
-                    <a href="#" target="_blank" className="fast-link" rel="noopener noreferrer">Acessar</a>
+                    <a href="https://infobrtelecom.speedtestcustom.com/" target="_blank" className="fast-link" rel="noopener noreferrer">Acessar</a>
                 </div>
             </div>
 

@@ -1,9 +1,6 @@
 import logo from "../img/customer-logo.svg";
 import wppIcon from "../img/whatsapp-icon.svg";
 import instagramIcon from "../img/insta-icon.svg";
-import fbIcon from "../img/fb-icon.svg";
-import ytIcon from "../img/yt-icon.svg";
-import xIcon from "../img/x-icon.svg";
 
 import "../style/footer.css";
 
@@ -20,23 +17,17 @@ function Footer() {
                             <a href="#">Home</a>
                         </li>
                         <li className="menu-item">
-                            <a href="#">Área do cliente</a>
-                        </li>
-                        <li className="menu-item">
-                            <a href="#">2ª via de fatura</a>
+                            <a href="https://infobrtelecom.tec.br/central_assinante_web/login" target='_blank'>Área do cliente</a>
                         </li>
                     </ul>
                 </div>
                 <div className="menu-wrapper">
                     <ul className="menu-list">
                         <li className="menu-item">
-                            <a href="#">Sobre nós</a>
+                            <a href="https://infobr.boletofacil.tec.br/" target='_blank'>2ª via de fatura</a>
                         </li>
                         <li className="menu-item">
-                            <a href="#">Suporte</a>
-                        </li>
-                        <li className="menu-item">
-                            <a href="#">Trabalhe conosco</a>
+                            <a href="wa.me/5579981360580" target='_blank'>Suporte</a>
                         </li>
                     </ul>
                 </div>
@@ -45,28 +36,13 @@ function Footer() {
                     <div className="social-links-wrapper">
                         <ul className="links-list">
                             <li className="link-item">
-                                <a href="#" className="social-link">
+                                <a href="https://wa.me/5579981360580" className="social-link" target='_blank'>
                                     <img src={wppIcon} className="social-icon" />
                                 </a>
                             </li>
                             <li className="link-item">
-                                <a href="#" className="social-link">
+                                <a href="https://www.instagram.com/infobr.telecom/" className="social-link" target='_blank'>
                                     <img src={instagramIcon} className="social-icon" />
-                                </a>
-                            </li>
-                            <li className="link-item">
-                                <a href="#" className="social-link">
-                                    <img src={fbIcon} className="social-icon" />
-                                </a>
-                            </li>
-                            <li className="link-item">
-                                <a href="#" className="social-link">
-                                    <img src={ytIcon} className="social-icon" />
-                                </a>
-                            </li>
-                            <li className="link-item">
-                                <a href="#" className="social-link">
-                                    <img src={xIcon} className="social-icon" />
                                 </a>
                             </li>
                         </ul>

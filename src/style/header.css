@@ -4,6 +4,9 @@
     justify-content: space-evenly;
     padding: 20px 0;
     background-color: #E6EEFF;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .logo {
@@ -47,11 +50,12 @@
 .header-container-mob {
     display: flex;
     padding: 20px 10px;
-    position: relative;
     justify-content: space-between;
     width: -webkit-fill-available;
     background-color: #E6EEFF;
-    z-index: 45;
+    position: sticky;
+    top: 0;
+    z-index: 100;
 }
 
 .header-container-mob .left-wrapper, .header-container-mob .right-wrapper {

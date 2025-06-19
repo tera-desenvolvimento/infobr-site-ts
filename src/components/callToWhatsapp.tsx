@@ -13,7 +13,7 @@ function CallToWhatsapp() {
                 <b>Vem conversar com a gente no Whatsapp!</b>
                 <div>
                     <img src={whatsappImg} className="wpp-icon" />
-                    <a href="#" className="wpp-link">Clique aqui para conversar</a>
+                    <a href="https://wa.me/5579981360580" className="wpp-link">Clique aqui para conversar</a>
                 </div>
             </div>
             <img src={leftLogo} className="left-bg-logo" />

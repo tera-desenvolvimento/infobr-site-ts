@@ -1,11 +1,9 @@
 .main-banner {
     width: -webkit-fill-available;
-    height: fit-content;
-    background-image: url("../img/main-banner.svg");
-    width: 100%;
-    min-height: 800px;
-    background-repeat: no-repeat;
-    background-size: cover;
     z-index: 30;
     position: relative;
+}
+
+.main-banner img {
+    width: 100%;
 }

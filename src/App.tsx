@@ -9,6 +9,7 @@ import Customers from './components/customers';
 import Coverage from './components/coverage';
 import CallToWhatsapp from './components/callToWhatsapp';
 import Footer from './components/footer';
+import Whatsapp from './components/whatsapp';
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
       <Coverage/>
       <CallToWhatsapp/>
       <Footer/>
+      <Whatsapp/>
     </React.Fragment>
   );
 }

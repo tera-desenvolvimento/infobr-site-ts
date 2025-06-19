@@ -8,25 +8,25 @@ import "../style/plans.css";
 
 function Plans() {
     return(
-        <div className="plans-container">
+        <div className="plans-container" id="plans">
             <b>Conheça nossos planos</b>
 
             <div className="plans-wrapper top-wrapper">
                 <div className="plan-item">
                     <img src={plan150img} className="plan-image" />
-                    <a href="#" className="plan-link">
+                    <a href="https://infobr.contratoonline.tec.br/" target="_blank" className="plan-link">
                         Contratar
                     </a>
                 </div>
                 <div className="plan-item">
                     <img src={plan200Img} className="plan-image" />
-                    <a href="#" className="plan-link">
+                    <a href="https://infobr.contratoonline.tec.br/" target="_blank" className="plan-link">
                         Contratar
                     </a>
                 </div>
                 <div className="plan-item">
                     <img src={plan500Img} className="plan-image" />
-                    <a href="#" className="plan-link">
+                    <a href="https://infobr.contratoonline.tec.br/" target="_blank" className="plan-link">
                         Contratar
                     </a>
                 </div>
@@ -34,13 +34,13 @@ function Plans() {
             <div className="plans-wrapper bottom-wrapper">
                 <div className="plan-item">
                     <img src={plan700Img} className="plan-image" />
-                    <a href="#" className="plan-link">
+                    <a href="https://infobr.contratoonline.tec.br/" target="_blank" className="plan-link">
                         Contratar
                     </a>
                 </div>
                 <div className="plan-item">
                     <img src={plan1000Img} className="plan-image" />
-                    <a href="#" className="plan-link">
+                    <a href="https://infobr.contratoonline.tec.br/" target="_blank" className="plan-link">
                         Contratar
                     </a>
                 </div>

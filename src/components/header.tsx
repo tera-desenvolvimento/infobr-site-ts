@@ -39,19 +39,13 @@ function Header() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#about" className="nav-link">
-                                <img src={aboutIcon} alt="About Icon" className="nav-icon" />
-                                Sobre Nós
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#social" className="nav-link">
+                            <a href="https://www.instagram.com/infobr.telecom/" target='_blank' className="nav-link">
                                 <img src={socialIcon} alt="Social Icon" className="nav-icon" />
                                 Social
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#contact" className="nav-link">
+                            <a href="https://wa.me/5579981360580" target='_blank' className="nav-link">
                                 <img src={contactIcon} alt="Contact Icon" className="nav-icon" />
                                 Contato
                             </a>
@@ -87,19 +81,13 @@ function Header() {
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#about" className="nav-link">
-                                <img src={aboutIcon} alt="About Icon" className="nav-icon" />
-                                Sobre Nós
-                            </a>
-                        </li>
-                        <li className="nav-item">
-                            <a href="#social" className="nav-link">
+                            <a href="https://www.instagram.com/infobr.telecom/" target='_blank' className="nav-link">
                                 <img src={socialIcon} alt="Social Icon" className="nav-icon" />
                                 Social
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a href="#contact" className="nav-link">
+                            <a href="wa.me/5579981360580" target='_blank' className="nav-link">
                                 <img src={contactIcon} alt="Contact Icon" className="nav-icon" />
                                 Contato
                             </a>
