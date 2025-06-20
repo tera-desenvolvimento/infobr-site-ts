@@ -63,14 +63,13 @@
 
 @media(max-width: 768px) {
     .ctw-container {
-        gap: 10px;
+        gap: 0;
         min-height: 190px;
         padding-bottom: unset;
     }
 
     .ctw-container .ctw-cellphone-image {
         height: 200px;
-        margin-left: 20px;
     }
 
     .ctw-container .ctw-wrapper {
@@ -82,7 +81,7 @@
     }
 
     .ctw-container .ctw-wrapper div {
-        gap: unset;
+        gap: 10px;
     }
 
     .ctw-container .ctw-wrapper div .wpp-icon {

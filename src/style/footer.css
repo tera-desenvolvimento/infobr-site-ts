@@ -64,7 +64,7 @@
 @media (max-width: 768px) {
     .footer-element .footer-wrapper {
         flex-direction: column;
-        gap: 40px;
+        gap: 0;
     }
 
     .footer-wrapper .menu-wrapper {
